@@ -40,7 +40,7 @@ def main():
     plt.scatter(X[:, 0], X[:, 1], c=labels, cmap='viridis', s=50)
     plt.scatter(centroids[:, 0], centroids[:, 1], c='red', s=300, alpha=0.6, marker='x')
     plt.title('Mean Shift Clustering')
-    plt.savefig("mean_shift_clustering.png")
+    plt.savefig("clustering/output/mean_shift_clustering.png")
 
 if __name__=='__main__':
     main()
